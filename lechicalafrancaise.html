@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Teko&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/menudeux.css"/>
 	<title>Le chic à la française</title>
@@ -14,10 +15,6 @@
 		.container-fluid1{
 			background-color: #42858E;
 			padding: 23px;
-			transition: 500ms;
-		}
-		.container-fluid1:hover{
-			background-color: #22858F;
 		}
 		.row1{
 			color: yellow;
@@ -114,9 +111,6 @@
 		li>div:first-child{
 			margin: 0 15px;
 		}
-		li>div:second-child{
-	    padding: 15px;
-		}
 		.gauche{
 			width: 250px;
 			height: 100px;
@@ -137,6 +131,45 @@
 			padding-right: 10px;
 		}
 
+		@media all and (max-width: 768px){
+			.container-fluid1{
+				height: 60px;
+			}
+			.row1{
+				font-size: 15px;
+			}
+			.lechicalafrancaise{
+				width: 320px;
+				height: auto;
+			}
+			.container{
+				background-color: #FCDFFB;
+				height: auto;
+			}
+			.container div{
+				line-height: 2;
+				font-size: 12px;
+			}
+			.container h3{
+				font-size: 12px;
+			}
+			.gauche{
+				width: 150px;
+				height: 50px;
+			}
+			.droite{
+				width: 150px;
+				height: 50px;
+			}
+			.container-fluid2{
+				height: 40px;
+			}
+			.row2{
+				font-size: 15px;
+			}
+		}
+
+
 		</style>
 </head>
 <body>
@@ -151,7 +184,6 @@
 	<!--********MENU 1********-->
 
     <div class="container">
-    	<h1>Le chic à la française</h1>
     	<div class="lechicalafrancaise menu2">
     		<h2>Le chic à la française</h2>
     		<div class="entree">
