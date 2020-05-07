@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Teko&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/menudeux.css"/>
+	<title>Le chic à la française</title>
+	<style>
+		body{
+			background-color: #42858E;
+			margin: 0;
+			padding: 0;
+		}
+		.container-fluid1{
+			background-color: #42858E;
+			padding: 23px;
+			transition: 500ms;
+		}
+		.container-fluid1:hover{
+			background-color: #22858F;
+		}
+		.row1{
+			color: yellow;
+			text-align: center;
+			font-size: 25px;
+		}
+		.container{
+			background-color: #fff;
+			width: auto;
+			height: 1500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.lechicalafrancaise{
+			width: 800px;
+			height: 1200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+		.menu2{
+			background-color: #FCDFFB;
+		}
+		.container-fluid2{
+			background-color: #42858E;
+			margin: 5px;
+			padding: 5px;
+		}
+		.row2{
+			display: flex;
+			justify-content: space-between;
+			color: yellow;
+			font-size: 25px;
+		}
+		.container div{
+			text-align: center;
+			line-height: 3;
+			font-family: 'Barlow', sans-serif;
+			font-size: 17px;
+		}
+		.container h2{
+			background: linear-gradient(to right, rgba(196,115,39,0.98) 0%,rgba(196,115,39,0.98) 21%,rgba(209,119,221,1) 100%);
+	        -webkit-text-fill-color: transparent;
+	        -webkit-background-clip: text;
+			font-family: 'Teko', sans-serif;
+		}
+		.entree .gauche{
+			background-color: maroon;
+		}
+		.entree .droite{
+			background-color: maroon;
+		}
+		.entree h3{
+			color: maroon;
+		}
+		.entree div{
+			color: maroon;
+		}
+		.plat .gauche{
+			background-color: violet;
+		}
+		.plat .droite{
+			background-color: violet;
+		}
+		.plat h3{
+			color: violet;
+		}
+		.plat div{
+			color: violet;
+		}
+		.dessert .droite{
+			background-color: blue;
+		}
+		.dessert .gauche{
+			background-color: blue;
+		}
+		.dessert h3{
+			color: blue;
+		}
+		.dessert div{
+			color: blue;
+		}
+		h3{
+			text-align: center;
+		}
+		li{
+			font-family: 'Montserrat', sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		li>div:first-child{
+			margin: 0 15px;
+		}
+		li>div:second-child{
+	    padding: 15px;
+		}
+		.gauche{
+			width: 250px;
+			height: 100px;
+			background-color: black;
+			clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%);
+		}
+		.droite{
+			margin-left: 10px;
+			width: 250px;
+			height: 100px;
+			background-color: black;
+			clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0% 50%);
+		}
+		li .gauche{
+			padding-right: 10px;
+		}
+		li .droite{
+			padding-right: 10px;
+		}
+
+		</style>
+</head>
+<body>
+	<!--********EN TETE********-->
+
+	<header class="container-fluid1">
+		<div class="row1">
+			<h1>OHMYFOOD</h1>
+		</div>
+	</header>
+
+	<!--********MENU 1********-->
+
+    <div class="container">
+    	<h1>Le chic à la française</h1>
+    	<div class="lechicalafrancaise menu2">
+    		<h2>Le chic à la française</h2>
+    		<div class="entree">
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Pour se mettre en appétit</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Tartare de poulpe acidulé d'orange</div><div><strong>79€</strong></div></li>
+    			<li><div>Velouté de légumes d'antan</div><div><strong>57€</strong></div></li>
+    			<li><div>Soupe à l'oignon revisitée</div><div><strong>57€</strong></div></li>
+    		</ul>
+    		</div>
+    		<div class="plat">
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Plaisir des papilles</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Coquilles Saint-Jacques accompagnées d'une purée de panais</div><div><strong>95€</strong></div></li>
+    			<li><div>Magret de canard et parmentier de pommes de terres</div><div><strong>88€</strong></div></li>
+    			<li><div>Pigeonneau d'Ille et Vilaine sur son lit de gnocchis aux légumes</div><div><strong>175€</strong></div></li>
+    		</ul>
+    		</div>
+    		<div class="dessert">
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Gourmandises sucrées</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Pétales de violettes glacés et purée de noisettes</div></li>
+    			<li><div>Fondant au chocolat revisité</div></li>
+    			<li><div>Millefeuille croustillant</div></li>
+    		</ul>
+    		</div>
+    	</div>
+       
+    </div>
+    
+    <!--********PIED DE PAGE********-->
+    
+    <footer class="container-fluid2">
+    	<div class="row2">
+    		<div class="col-12 col-md-4">
+				<p>Mentions légales</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<p>Contactez-nous</p>
+    	</div>
+    </footer>
+
+</body>
+</html>

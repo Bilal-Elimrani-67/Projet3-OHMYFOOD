@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/menuun.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<title>La note enchantée</title>
+	<style>
+
+		body{
+			background-color: #42858E;
+			margin: 0;
+			padding: 0;
+		}
+		.container-fluid1{
+			background-color: #42858E;
+			padding: 23px;
+		}
+		.row1{
+			color: yellow;
+			text-align: center;
+			font-size: 25px;
+		}
+		.container{
+			background-color: #fff;
+			width: auto;
+			height: 1500px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.lanoteenchantee{
+			width: 800px;
+			height: 1200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+		.menu1{
+			background-color: #FBBB85;
+		}
+		.container-fluid2{
+			background-color: #42858E;
+			margin: 5px;
+			padding: 5px;
+		}
+		.row2{
+			display: flex;
+			justify-content: space-between;
+			color: yellow;
+			font-size: 25px;
+		}
+		i{
+			padding: 10px;
+			text-align: center;
+			background: linear-gradient(to right, rgba(252,32,32,0.98) 0%,rgba(255,169,119,1) 100%);
+			-webkit-text-fill-color: transparent;
+			-webkit-background-clip: text;
+		}
+		.container i{
+			font-size: 40px;
+		}
+		.container div{
+			color: #4f2a09;
+			text-align: center;
+			line-height: 3;
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 17px;
+		}
+		.container h2{
+			color: #4f2a09;
+			font-family: 'Shadows Into Light Two', cursive;
+		}
+		h3{
+			text-align: center;
+		}
+		li{
+			font-family: 'Montserrat', sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		li>div:first-child{
+			margin: 0 15px;
+		}
+		.gauche{
+			width: 200px;
+			height: 100px;
+			background-color: #4f2a09;
+			clip-path: ellipse(45% 3% at 50% 50%);
+		}
+		.droite{
+			width: 200px;
+			height: 100px;
+			background-color: #4f2a09;
+			clip-path: ellipse(45% 3% at 50% 50%);
+		}
+		li .gauche{
+			padding-right: 100px;
+		}
+		li .droite{
+			padding-right: 100px;
+		}
+
+		@media all and (max-width: 768px){
+			.container-fluid1{
+				height: 60px;
+			}
+			.row1{
+				font-size: 15px;
+			}
+			.lanoteenchantee{
+				width: 320px;
+				height: auto;
+			}
+			.container{
+				background-color: #FBBB85;
+				height: auto;
+			}
+			.container div{
+				line-height: 2;
+				font-size: 14px;
+				padding-right: 10px;
+			}
+			.container-fluid2{
+				height: 40px;
+			}
+			.row2{
+				font-size: 15px;
+			}
+			i{
+				font-size: 1px;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<!--********EN TETE********-->
+
+	<header class="container-fluid1">
+		<div class="row1">
+			<h1>OHMYFOOD</h1>
+		</div>
+	</header>
+
+	<!--********MENU 1********-->
+
+    <div class="container">
+        <div class="row">
+    	<div class="lanoteenchantee menu1" class="col-xs-12">
+    		<span><i class="fas fa-music"></i></span>
+    		<h2>La note enchantée</h2>
+    		<li>
+    		<div class="gauche"></div>
+    			<h3>Prélude</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Ravioles de foie gras accompagnés de leur crème à la truffe</div><div><strong>98€</strong></div></li>
+    			<li><div>Caviar osciètre sur blini à la farine de blé noir</div><div><strong>115€</strong></div></li>
+    			<li><div>Homard et espuma de potiron mariné aux zests d'orange</div><div><strong>89€</strong></div></li>
+    			<li><div>Foie gras de canard cuit entier, confiture de figue et pain toasté</div><div><strong>105€</strong></div></li>	
+    		</ul>
+    		<li></strong>
+    		<div class="gauche"></div>
+    		<h3>Point d'orgue</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</div><div><strong>102€</strong></div></li>
+    			<li><div>Langoustine poêlée, purée de patate douce</div><div><strong>205€</strong></div></li>
+    			<li><div>Mijoté de queue de boeuf et riz sauvage aux zests de citron</div><div><strong>169€</strong></div></li>
+    		</ul>
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Mouvement final</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Macaron noisettes et chocolat, glace au caramel brun et sel de Guèrande</div></li>
+    			<li><div>Baba au rhum revisité avec son coulis de citron</div></li>
+    			<li><div>Tarte au citron meringuée destructurée</div></li>
+    		</ul>
+				<div><i class="fas fa-music"></i>La note enchantée</div>
+    	</div>
+    	</div>
+    </div>
+    
+    <!--********PIED DE PAGE********-->
+    
+    <footer class="container-fluid2">
+    	<div class="row2">
+    		<div class="col-12 col-md-4">
+				<p>Mentions légales</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<p>Contactez-nous</p>
+    	</div>
+    </footer>
+
+</body>
+</html>

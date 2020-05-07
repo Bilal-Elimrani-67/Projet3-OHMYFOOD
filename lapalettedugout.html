@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/menuun.css"/>
+	<title>La palette du gôut</title>
+	<style>
+		body{
+	background-color: #42858E;
+	margin: 0;
+	padding: 0;
+}
+.container-fluid1{
+	background-color: #42858E;
+	padding: 23px;
+	transition: 500ms;
+}
+.container-fluid1:hover{
+	background-color: #22858F;
+}
+.row1{
+	color: yellow;
+	text-align: center;
+	font-size: 25px;
+}
+.container{
+	background-color: #fff;
+	width: auto;
+	height: 1500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lapalettedugout{
+	width: 800px;
+	height: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: 1px 1px 1px 1px;
+}
+.menu4{
+	background-color: #fff;
+}
+.container-fluid2{
+	background-color: #42858E;
+	margin: 5px;
+	padding: 5px;
+}
+.row2{
+	display: flex;
+	justify-content: space-between;
+	color: yellow;
+	font-size: 25px;
+}
+.container div{
+	text-align: center;
+	line-height: 3;
+	font-family: 'Caveat', cursive;
+	font-size: 18px;
+}
+.container h3{
+	font-family: 'Caveat', cursive;
+}
+.container h2{
+	font-family: 'Kaushan Script', cursive;
+	background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 50px;
+}
+h1{
+	font-family: sans-serif;
+}
+h3{
+	text-align: center;
+}		
+li{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li>div:first-child{
+    margin: 0 15px;
+}
+.gauche{
+width: 250px;
+height: 100px;
+background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
+clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
+
+}
+.droite{
+	margin-left: 10px;
+width: 250px;
+height: 100px;
+background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
+clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
+
+}
+li .gauche{
+	padding-right: 10px;
+}
+li .droite{
+padding-right: 10px;
+}
+
+	</style>
+
+</head>
+<body>
+	<!--********EN TETE********-->
+
+	<header class="container-fluid1">
+		<div class="row1">
+			<h1>OHMYFOOD</h1>
+		</div>
+	</header>
+
+	<!--********MENU 1********-->
+
+    <div class="container">
+    	<h1>La palette du goût</h1>
+    	<div class="lapalettedugout menu4">
+    		<h2>La palette du goût</h2>
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Esquisse</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Fricassée d'escargot au pimet d'espelette</div><div><strong>60€</strong></div></li>
+    			<li><div>Oeuf au plat assaisonné à la truffe sur le lit de caviar</div><div><strong>55€</strong></div></li>
+    			<li><div>Foie gras de canard mi-cuit et ses copeaux de truffe noire</div><div><strong>65€</strong></div></li>
+    		</ul>
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Oeuvre de maître</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</div><div><strong>70€</strong></div></li>
+    			<li><div>Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</div><div><strong>85€</strong></div></li>
+    			<li><div>Filet de Turbot aux agrumes</div><div><strong>125€</strong></div></li>
+    		</ul>
+    		<li>
+    		<div class="gauche"></div>
+    		<h3>Au sommet de l'art</h3>
+    		<div class="droite"></div>
+    	    </li>
+    		<ul>
+    			<li><div>Paris-Brest revisité</div><div><strong>55€</strong></div></li>
+    			<li><div>Macaron au chocolat d'exception et glace à la vanille de Madagascar</div><div><strong>65€</strong></div></li>
+    			<li><div>Mousse au chocolat</div><div><strong>60€</strong></div></li>
+    		</ul>
+    	</div>
+    </div>
+    
+    <!--********PIED DE PAGE********-->
+    
+    <footer class="container-fluid2">
+    	<div class="row2">
+    		<div class="col-12 col-md-4">
+				<p>Mentions légales</p>
+			</div>
+			<div class="col-12 col-md-4">
+				<p>Contactez-nous</p>
+    	</div>
+    </footer>
+
+</body>
+</html>
