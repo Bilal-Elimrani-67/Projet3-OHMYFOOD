@@ -234,6 +234,32 @@ a{
 	color: yellow;
 }
 
+@media all and (min-width: 401px) and (max-width: 768px){
+	.bloc1{
+		width: 130px;
+	}
+	.un{
+		margin-left: 50px;
+		width: 250px;
+	}
+	.deux{
+		margin-right: 50px;
+		width: 250px;
+	}
+	.bloc2{
+		width: 130px;
+	}
+	.trois{
+		margin-left: 50px;
+		width: 250px;
+	}
+	.quatre{
+		margin-right: 50px;
+		width: 250px;
+	}
+	
+}
+
 @media all and (max-width: 400px){
 	.container-fluid1{
 		height: auto;
@@ -323,11 +349,3 @@ a{
 	}
 }
 
-@media all and (min-width: 401px) and (max-width: 768px){
-	.container-fluid1{
-		background-color: #fff;
-	}
-	h1{
-		font-size: 50px;
-	}
-}
