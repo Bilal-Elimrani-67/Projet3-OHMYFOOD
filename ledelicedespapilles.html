@@ -3,27 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Mono&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/menutrois.css"/>
 	<title>Le délice des papilles</title>
 	<style>
 		body{
-	background-color: #42858E;
+	background-color: rgb(76,175,80);
 	margin: 0;
 	padding: 0;
 }
 .container-fluid1{
-	background-color: #42858E;
+	background-color: rgb(76,175,80);
 	padding: 23px;
 	transition: 500ms;
-}
-.container-fluid1:hover{
-	background-color: #22858F;
 }
 .row1{
 	color: yellow;
 	text-align: center;
 	font-size: 25px;
+}
+h1{
+	font-family: 'DM Mono', sans-serif;
 }
 .container{
 	background-color: #fff;
@@ -45,7 +45,7 @@
 	background-color: #F3F3F3;
 }
 .container-fluid2{
-	background-color: #42858E;
+	background-color: rgb(76,175,80);
 	margin: 5px;
 	padding: 5px;
 }
@@ -100,7 +100,22 @@ li .gauche{
 }
 li .droite{
 padding-right: 10px;
+transform: scaleX(-1);
 }
+.wiggling{
+			animation: thing 1.5s infinite;
+		}
+		@keyframes thing{
+		0%{transform: rotate(3deg)}
+		3%{transform: rotate(-3deg)}
+		4%{transform: rotate(-5deg)}
+		5%{transform: rotate(0deg)}
+		100%{transform: rotate(0deg)}
+		}
+		a{
+			text-decoration: none;
+			color: yellow;
+		}
 
 @media all and (max-width: 768px){
 	.container-fluid1{
@@ -150,7 +165,9 @@ padding-right: 10px;
 
 	<header class="container-fluid1">
 		<div class="row1">
-			<h1>OHMYFOOD</h1>
+			<a href="index.html">
+				<h1>OHMYFOOD</h1>
+			</a>
 		</div>
 	</header>
 
@@ -197,10 +214,19 @@ padding-right: 10px;
     <footer class="container-fluid2">
     	<div class="row2">
     		<div class="col-12 col-md-4">
-				<p>Mentions légales</p>
+    			<div class="wiggling">
+    				<a href="mentionslegales.html">
+						<p>Mentions légales</p>
+					</a>
+				</div>
 			</div>
 			<div class="col-12 col-md-4">
-				<p>Contactez-nous</p>
+				<div class="wiggling">
+    				<a href="mailto:bilal.elimrani@icloud.com">
+						<p>Contactez-nous</p>
+					</a>
+				</div>
+			</div>
     	</div>
     </footer>
 
