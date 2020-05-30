@@ -4,129 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/menuun.css"/>
+	<link rel="stylesheet" href="css/mentionslegales.css"/>
 	<title>La note enchantée</title>
-<style>
-		body{
-			background-color: #579C87;
-			margin: 0;
-			padding: 0;
-		}
-		.container-fluid1{
-			background-color: #579C87;
-			padding: 23px;
-			transition: 500ms;
-		}
-		.row1{
-			color: yellow;
-			text-align: center;
-			font-size: 25px;
-		}
-		h1{
-		    color: #fcca46;
-			font-family: 'DM Mono', sans-serif;
-			text-align: center;
-		}
-		h2{
-			color: #fcca46;
-		}
-		.container{
-			background-color: #fff;
-			width: auto;
-			height: 1700px;
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			align-items: center;
-		}
-		.mentionslegales{
-			width: 800px;
-			height: 1200px;
-			text-align: center;
-			font-family: 'Montserrat', sans-serif;
-			padding-top: 60px;
-			display: flex;
-			flex-direction: column;
-		}
-		.menu1{
-			background-color: #fff;
-			box-shadow: 1px 1px 20px 2px black;
-		}
-		.menu1 img{
-			width: 800px;
-			height: 1200px;
-		}
-		.container-fluid2{
-			background-color: #579C87;
-			margin: 0px;
-			padding: 5px;
-			position: fixed;
-			bottom: 0;
-			width: 100%;
-		}
-		.row2{
-			display: flex;
-			justify-content: space-between;
-			font-size: 25px;
-			margin-right: 10px;
-		}
-		.wiggling{
-			animation: thing 1.5s infinite;
-		}
-		@keyframes thing{
-			0%{transform: rotate(3deg)}
-			3%{transform: rotate(-3deg)}
-			4%{transform: rotate(-5deg)}
-			5%{transform: rotate(0deg)}
-			100%{transform: rotate(0deg)}
-		}
-		a{
-			text-decoration: none;
-			color: #fcca46;
-		}
-
-		@media all and (min-width: 401px) and (max-width: 768px){
-		.container{
-			height: 100%;
-		}
-		.mentionslegales{
-			width: 380px;
-			height: 100%;
-			box-shadow: none;
-		}		
-	}
-
-		@media all and (max-width: 400px){
-		.container-fluid1{
-			height: 60px;
-		}
-		.row1{
-			font-size: 15px;
-		}
-		.mentionslegales{
-			width: 380px;
-			height: 100%;
-			box-shadow: none;
-		}
-		.container{
-			height: 100%;
-		}
-	}
-</style>
 
 </head>
+
 <body>
 	<!--********EN TETE********-->
 
-	<header class="container-fluid1">
-		<div class="row1">
-			<h1>OHMYFOOD</h1>
-			<h2>Informations légales</h2>
-		</div>
-	</header>
+<header class="container-fluid1">
+	<div class="row1">
+		<h1>OHMYFOOD</h1>
+		<h2>Informations légales</h2>
+	</div>
+</header>
 
 	<!--********MENU 1********-->
-
+<main>
     <div class="container">
     	<div class="mentionslegales menu1">
     		<p>Dénomination : OHMYFOOD<br>
@@ -167,27 +61,28 @@
     		la commande sera le seul applicable à l’acheteur.</p>
     	</div>
     </div>
+</main>
     
     <!--********PIED DE PAGE********-->
     
-    <footer class="container-fluid2">
-    	<div class="row2">
-    		<div class="col-12 col-md-4">
-    			<div class="wiggling">
-    				<a href="mentionslegales.html">
-						<p>Mentions légales</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-12 col-md-4">
-				<div class="wiggling">
-    				<a href="mailto:bilal.elimrani@icloud.com">
-						<p>Contactez-nous</p>
-					</a>
-				</div>
-			</div>
-    	</div>
-    </footer>
+<footer class="container-fluid2">
+    <div class="row2">
+        <div class="col-12 col-md-4">
+            <div class="wiggling">
+                <a href="mentionslegales.html">
+                    <p>Mentions légales</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="wiggling">
+                <a href="mailto:bilal.elimrani@icloud.com">
+                    <p>Contactez-nous</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

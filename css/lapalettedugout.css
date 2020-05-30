@@ -73,7 +73,14 @@ h1{
 	font-family: sans-serif;
 }
 h3{
+	font-size: 15px;
 	text-align: center;
+	background: linear-gradient(to top, rgba(26,114,14,0.98) 0%, rgba(26,114,14,0.98) 1px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .5s;
+}
+h3:hover{
+	background-size: 100% 100%;
 }		
 li{
 	font-family: 'Montserrat', sans-serif;
@@ -88,6 +95,7 @@ li>div:first-child{
 	width: 250px;
 	height: 100px;
 	background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
+	-webkit-clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
 	clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
 }
 .droite{
@@ -95,7 +103,9 @@ li>div:first-child{
 	width: 250px;
 	height: 100px;
 	background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
+	-webkit-clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
 	clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
+	margin-right: 50px;
 }
 li .gauche{
 	padding-right: 10px;
@@ -108,11 +118,11 @@ li .droite{
 	animation: thing 1.5s infinite;
 }
 @keyframes thing{
-0%{transform: rotate(3deg)}
-3%{transform: rotate(-3deg)}
-4%{transform: rotate(-5deg)}
-5%{transform: rotate(0deg)}
-100%{transform: rotate(0deg)}
+	0%{transform: rotate(3deg)}
+	3%{transform: rotate(-3deg)}
+	4%{transform: rotate(-5deg)}
+	5%{transform: rotate(0deg)}
+	100%{transform: rotate(0deg)}
 }
 a{
 	text-decoration: none;
@@ -131,7 +141,7 @@ a{
 }
 
 @media all and (max-width: 400px){
-.container-fluid1{
+	.container-fluid1{
 		height: 60px;
 	}
 	.row1{

@@ -1,43 +1,43 @@
 body{
-background-color: #579C87;
-margin: 0;
-padding: 0;
+	background-color: #579C87;
+	margin: 0;
+	padding: 0;
 }
 .container-fluid1{
-background-color: #579C87;
-padding: 23px;
-transition: 500ms;
+	background-color: #579C87;
+	padding: 23px;
+	transition: 500ms;
 }
 .row1{
-text-align: center;
-font-size: 25px;
+	text-align: center;
+	font-size: 25px;
 }
 h1{
 	color: #fcca46;
 	font-family: 'DM Mono', sans-serif;
 }
 .container{
-background-color: #fff;
-width: auto;
-height: 1500px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+	background-color: #fff;
+	width: auto;
+	height: 1500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .ledelicedespapilles{
-width: 800px;
-height: 1200px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
+	width: 800px;
+	height: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
 .menu3{
-background-color: #F3F3F3;
+	background-color: #F3F3F3;
 }
 .container-fluid2{
-background-color: #579C87;
-margin: 0px;
+	background-color: #579C87;
+	margin: 0px;
 	padding: 5px;
 	position: fixed;
 	bottom: 0;
@@ -48,67 +48,77 @@ margin: 0px;
 	margin-right: 10px;
 }
 .row2{
-display: flex;
-justify-content: space-between;
-color: yellow;
-font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	color: yellow;
+	font-size: 25px;
 }
 .container div{
-text-align: center;
-line-height: 3;
-font-family: 'Caveat', cursive;
-font-size: 18px;
+	text-align: center;
+	line-height: 3;
+	font-family: 'Caveat', cursive;
+	font-size: 18px;
 }
 .container h3{
-font-family: 'Caveat', cursive;
+	font-family: 'Caveat', cursive;
 }
 .container h2{
-background: linear-gradient(to right, blue, skyblue);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-font-size: 50px;
+	background: linear-gradient(to right, blue, skyblue);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 50px;
 }
 h3{
-text-align: center;
+	font-size: 15px;
+	text-align: center;
+	background: linear-gradient(to top, blue 0%, blue 1px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .5s;
+}
+h3:hover{
+	background-size: 100% 100%;
 }		
 li{
-font-family: 'Montserrat', sans-serif;
-display: flex;
-justify-content: center;
-align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 li>div:first-child{
-margin: 0 15px;
+	margin: 0 15px;
 }
 .gauche{
-width: 250px;
-height: 100px;
-background: linear-gradient(to right, blue, skyblue);
-clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
+	width: 250px;
+	height: 100px;
+	background: linear-gradient(to right, blue, skyblue);
+	-webkit-clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
+	clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
 }
 .droite{
-margin-left: 10px;
-width: 250px;
-height: 100px;
-background: linear-gradient(to left, blue, skyblue);
-clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
+	margin-left: 10px;
+	width: 250px;
+	height: 100px;
+	background: linear-gradient(to left, blue, skyblue);
+	-webkit-clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
+	clip-path: polygon(51% 55%, 100% 50%, 68% 52%, 35% 51%, 0 50%);
+	margin-right: 50px;
 }
 li .gauche{
-padding-right: 10px;
+	padding-right: 10px;
 }
 li .droite{
-padding-right: 10px;
-transform: scaleX(-1);
+	padding-right: 10px;
+	transform: scaleX(-1);
 }
 .wiggling{
 	animation: thing 1.5s infinite;
 }
 @keyframes thing{
-0%{transform: rotate(3deg)}
-3%{transform: rotate(-3deg)}
-4%{transform: rotate(-5deg)}
-5%{transform: rotate(0deg)}
-100%{transform: rotate(0deg)}
+	0%{transform: rotate(3deg)}
+	3%{transform: rotate(-3deg)}
+	4%{transform: rotate(-5deg)}
+	5%{transform: rotate(0deg)}
+	100%{transform: rotate(0deg)}
 }
 a{
 	text-decoration: none;
@@ -127,7 +137,7 @@ a{
 
 
 @media all and (max-width: 400px){
-.container-fluid1{
+	.container-fluid1{
 		height: 60px;
 	}
 	.row1{

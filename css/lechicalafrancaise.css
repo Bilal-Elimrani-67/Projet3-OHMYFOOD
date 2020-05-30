@@ -61,8 +61,8 @@ h1{
 }
 .container h2{
 	background: linear-gradient(to right, rgba(196,115,39,0.98) 0%,rgba(196,115,39,0.98) 21%,rgba(209,119,221,1) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 	font-family: 'Teko', sans-serif;
 }
 .entree .gauche{
@@ -101,8 +101,35 @@ h1{
 .dessert div{
 	color: blue;
 }
-h3{
+.entree h3{
+	font-size: 15px;
 	text-align: center;
+	background: linear-gradient(to top, maroon 0%, maroon 1px, transparent 5px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .5s;
+}
+.entree h3:hover{
+	background-size: 100% 100%;
+}
+.plat h3{
+	font-size: 15px;
+	text-align: center;
+	background: linear-gradient(to top, violet 0%, violet 1px, transparent 5px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .5s;
+}
+.plat h3:hover{
+	background-size: 100% 100%;
+}
+.dessert h3{
+	font-size: 15px;
+	text-align: center;
+	background: linear-gradient(to top, blue 0%, blue 1px, transparent 3px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size .5s;
+}
+.dessert h3:hover{
+	background-size: 100% 100%;
 }
 li{
 	font-family: 'Montserrat', sans-serif;
@@ -114,33 +141,34 @@ li>div:first-child{
 	margin: 0 15px;
 }
 .gauche{
-	width: 250px;
+	width: 200px;
 	height: 100px;
 	background-color: black;
+	-webkit-clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%);
 	clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0% 50%);
 }
 .droite{
-	margin-left: 10px;
-	width: 250px;
+	width: 200px;
 	height: 100px;
 	background-color: black;
+	-webkit-clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0% 50%);
 	clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0% 50%);
+	margin-right: 50px;
+	margin-left: 10px;
 }
 li .gauche{
-	padding-right: 10px;
 }
 li .droite{
-	padding-right: 10px;
 }
 .wiggling{
 	animation: thing 1.5s infinite;
 }
 @keyframes thing{
-0%{transform: rotate(3deg)}
-3%{transform: rotate(-3deg)}
-4%{transform: rotate(-5deg)}
-5%{transform: rotate(0deg)}
-100%{transform: rotate(0deg)}
+	0%{transform: rotate(3deg)}
+	3%{transform: rotate(-3deg)}
+	4%{transform: rotate(-5deg)}
+	5%{transform: rotate(0deg)}
+	100%{transform: rotate(0deg)}
 }
 a{
 	text-decoration: none;
