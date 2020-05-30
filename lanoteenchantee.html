@@ -1,260 +1,267 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Montserrat:wght@300&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/menuun.css"/>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<title>La note enchantée</title>
-	<style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Montserrat:wght@300&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/menuun.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<title>La note enchantée</title>
+<style>
 
-		body{
-			background-color: rgb(76,175,80);
-			margin: 0;
-			padding: 0;
-		}
-		.container-fluid1{
-			background-color: rgb(76,175,80);
-			padding: 23px;
-		}
-		.row1{
-			color: yellow;
-			text-align: center;
-			font-size: 25px;
-		}
-		h1{
-			font-family: 'DM Mono', sans-serif;
-		}
-		.container{
-			background-color: #fff;
-			width: auto;
-			height: 1500px;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-		.lanoteenchantee{
-			width: 800px;
-			height: 1200px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-evenly;
-		}
-		.menu1{
-			background-color: #FBBB85;
-		}
-		.container-fluid2{
-			background-color: rgb(76,175,80);
-			margin: 5px;
-			padding: 5px;
-		}
-		.row2{
-			background-color: rgb(76,175,80);
-			display: flex;
-			justify-content: space-between;
-			color: yellow;
-			font-size: 25px;
-		}
-		i{
-			padding: 10px;
-			text-align: center;
-			background: linear-gradient(to right, rgba(252,32,32,0.98) 0%,rgba(255,169,119,1) 100%);
-			-webkit-text-fill-color: transparent;
-			-webkit-background-clip: text;
-		}
-		.container i{
-			font-size: 40px;
-		}
-		.container div{
-			color: #4f2a09;
-			text-align: center;
-			line-height: 3;
-			font-family: 'Shadows Into Light', cursive;
-			font-size: 17px;
-		}
-		.container h2{
-			color: #4f2a09;
-			font-family: 'Shadows Into Light Two', cursive;
-		}
-		h3{
-			text-align: center;
-		}
-		li{
-			font-family: 'Montserrat', sans-serif;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		li>div:first-child{
-			margin: 0 15px;
-		}
-		.gauche{
-			width: 200px;
-			height: 100px;
-			background-color: #4f2a09;
-			clip-path: ellipse(45% 3% at 50% 50%);
-		}
-		.droite{
-			width: 200px;
-			height: 100px;
-			background-color: #4f2a09;
-			clip-path: ellipse(45% 3% at 50% 50%);
-		}
-		li .gauche{
-			padding-right: 100px;
-		}
-		li .droite{
-			padding-right: 100px;
-			transform: scaleX(-1);
-		}
-		.wiggling{
-			animation: thing 1.5s infinite;
-		}
-		@keyframes thing{
-		0%{transform: rotate(3deg)}
-		3%{transform: rotate(-3deg)}
-		4%{transform: rotate(-5deg)}
-		5%{transform: rotate(0deg)}
-		100%{transform: rotate(0deg)}
-		}
-		a{
-			text-decoration: none;
-			color: yellow;
-		}
+body{
+	background-color: #579C87;
+	margin: 0;
+	padding: 0;
+}
+.container-fluid1{
+	background-color: #579C87;
+	padding: 23px;
+}
+.row1{
+	text-align: center;
+	font-size: 25px;
+}
+h1{
+	color: #fcca46;
+	font-family: 'DM Mono', sans-serif;
+}
+.container{
+	background-color: #fff;
+	width: auto;
+	height: 1500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lanoteenchantee{
+	width: 800px;
+	height: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.menu1{
+	background-color: #FBBB85;
+}
+.container-fluid2{
+	background-color: #579C87;
+	margin: 0px;
+	padding: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.container-fluid2 p{
+	color: #fcca46;
+	margin-right: 10px;
+}
+.row2{
+	background-color: #579C87;
+	display: flex;
+	justify-content: space-between;
+	color: yellow;
+	font-size: 25px;
+}
+i{
+	padding: 10px;
+	text-align: center;
+	background: linear-gradient(to right, rgba(252,32,32,0.98) 0%,rgba(255,169,119,1) 100%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.container i{
+	font-size: 40px;
+}
+.container div{
+	color: #4f2a09;
+	text-align: center;
+	line-height: 3;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 17px;
+}
+.container h2{
+	color: #4f2a09;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+h3{
+	text-align: center;
+}
+li{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+li>div:first-child{
+	margin: 0 15px;
+}
+.gauche{
+	width: 200px;
+	height: 100px;
+	background-color: #4f2a09;
+	clip-path: ellipse(45% 3% at 50% 50%);
+}
+.droite{
+	width: 200px;
+	height: 100px;
+	background-color: #4f2a09;
+	clip-path: ellipse(45% 3% at 50% 50%);
+}
+li .gauche{
+	padding-right: 100px;
+}
+li .droite{
+	padding-right: 100px;
+	transform: scaleX(-1);
+}
+.wiggling{
+	animation: thing 1.5s infinite;
+}
+@keyframes thing{
+0%{transform: rotate(3deg)}
+3%{transform: rotate(-3deg)}
+4%{transform: rotate(-5deg)}
+5%{transform: rotate(0deg)}
+100%{transform: rotate(0deg)}
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
 
-		@media all and (min-width: 401px) and (max-width: 768px){
-			.container{
-				background-color: #FBBB85;
+@media all and (min-width: 401px) and (max-width: 768px){
+	.container{
+		background-color: #FBBB85;
 
-			}
-			.lanoteenchantee{
-				width: 550px;
-				height: auto;
-			}
-		}
+	}
+	.lanoteenchantee{
+		width: 550px;
+		height: auto;
+	}
+}
 
-		@media all and (max-width: 400px){
-			.container-fluid1{
-				height: 60px;
-			}
-			.row1{
-				font-size: 15px;
-			}
-			.lanoteenchantee{
-				width: 320px;
-				height: auto;
-			}
-			.container{
-				background-color: #FBBB85;
-				height: auto;
-			}
-			.container div{
-				line-height: 2;
-				font-size: 14px;
-				padding-right: 10px;
-			}
-			.container-fluid2{
-				height: 40px;
-			}
-			.row2{
-				font-size: 15px;
-			}
-			i{
-				font-size: 1px;
-			}
-		}
+@media all and (max-width: 400px){
+	.container-fluid1{
+		height: 60px;
+	}
+	.row1{
+		font-size: 15px;
+	}
+	.lanoteenchantee{
+		width: 320px;
+		height: auto;
+	}
+	.container{
+		background-color: #FBBB85;
+		height: auto;
+	}
+	.container div{
+		line-height: 2;
+		font-size: 14px;
+		padding-right: 10px;
+	}
+	.container-fluid2{
+		height: 40px;
+	}
+	.row2{
+		font-size: 15px;
+	}
+	i{
+		font-size: 1px;
+	}
+}
 
 
-	</style>
+</style>
 </head>
 <body>
-	<!--********EN TETE********-->
+<!--********EN TETE********-->
 
-	<header class="container-fluid1">
-		<div class="row1">
-			<a href="index.html">
-				<h1>OHMYFOOD</h1>
+<header class="container-fluid1">
+<div class="row1">
+	<a href="index.html">
+		<h1>OHMYFOOD</h1>
+	</a>
+</div>
+</header>
+
+<!--********MENU 1********-->
+
+<div class="container">
+<div class="row">
+<div class="lanoteenchantee menu1">
+	<span><i class="fas fa-music"></i></span>
+	<h2>La note enchantée</h2>
+	<div class="entree">	
+		<ul>
+			<li>
+				<div class="gauche"></div>
+					<h3>Prélude</h3>
+				<div class="droite"></div>
+    		</li>
+    	</ul>
+		<ul>	
+			<li><div>Ravioles de foie gras accompagnés de leur crème à la truffe</div><div><strong>98€</strong></div></li>
+			<li><div>Caviar osciètre sur blini à la farine de blé noir</div><div><strong>115€</strong></div></li>
+			<li><div>Homard et espuma de potiron mariné aux zests d'orange</div><div><strong>89€</strong></div></li>
+			<li><div>Foie gras de canard cuit entier, confiture de figue et pain toasté</div><div><strong>105€</strong></div></li>
+		</ul>
+	</div>
+	<div class="plat">
+		<ul>
+			<li>		
+				<div class="gauche"></div>
+					<h3>Point d'orgue</h3>
+				<div class="droite"></div>
+			</li>
+		</ul>
+		<ul>
+			<li><div>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</div><div><strong>102€</strong></div></li>
+			<li><div>Langoustine poêlée, purée de patate douce</div><div><strong>205€</strong></div></li>
+			<li><div>Mijoté de queue de boeuf et riz sauvage aux zests de citron</div><div><strong>169€</strong></div></li>
+		</ul>
+	</div>
+	<div class="dessert">
+		<ul>
+			<li>
+				<div class="gauche"></div>
+					<h3>Mouvement final</h3>
+				<div class="droite"></div>
+			</li>
+		</ul>
+		<ul>
+			<li><div>Macaron noisettes et chocolat, glace au caramel brun et sel de Guèrande</div></li>
+			<li><div>Baba au rhum revisité avec son coulis de citron</div></li>
+			<li><div>Tarte au citron meringuée destructurée</div></li>
+		</ul>
+	</div>
+		<div><i class="fas fa-music"></i>La note enchantée</div>
+</div>
+</div>
+</div>
+
+<!--********PIED DE PAGE********-->
+
+<footer class="container-fluid2">
+<div class="row2">
+	<div class="col-12 col-md-4">
+		<div class="wiggling">
+			<a href="mentionslegales.html">
+				<p>Mentions légales</p>
 			</a>
 		</div>
-	</header>
-
-	<!--********MENU 1********-->
-
-    <div class="container">
-        <div class="row">
-    	<div class="lanoteenchantee menu1">
-    		<span><i class="fas fa-music"></i></span>
-    		<h2>La note enchantée</h2>
-    		<div class="entree">	
-    			<ul>
-    				<li>
-    					<div class="gauche"></div>
-    						<h3>Prélude</h3>
-    					<div class="droite"></div>
-    	    		</li>
-    	    	</ul>
-    			<ul>	
-    				<li><div>Ravioles de foie gras accompagnés de leur crème à la truffe</div><div><strong>98€</strong></div></li>
-    				<li><div>Caviar osciètre sur blini à la farine de blé noir</div><div><strong>115€</strong></div></li>
-    				<li><div>Homard et espuma de potiron mariné aux zests d'orange</div><div><strong>89€</strong></div></li>
-    				<li><div>Foie gras de canard cuit entier, confiture de figue et pain toasté</div><div><strong>105€</strong></div></li>
-    			</ul>
-    		</div>
-    		<div class="plat">
-    			<ul>
-    				<li>		
-    					<div class="gauche"></div>
-    						<h3>Point d'orgue</h3>
-    					<div class="droite"></div>
-    				</li>
-    			</ul>
-    			<ul>
-    				<li><div>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</div><div><strong>102€</strong></div></li>
-    				<li><div>Langoustine poêlée, purée de patate douce</div><div><strong>205€</strong></div></li>
-    				<li><div>Mijoté de queue de boeuf et riz sauvage aux zests de citron</div><div><strong>169€</strong></div></li>
-    			</ul>
-    		</div>
-    		<div class="dessert">
-    			<ul>
-    				<li>
-    					<div class="gauche"></div>
-    						<h3>Mouvement final</h3>
-    					<div class="droite"></div>
-    				</li>
-    			</ul>
-    			<ul>
-    				<li><div>Macaron noisettes et chocolat, glace au caramel brun et sel de Guèrande</div></li>
-    				<li><div>Baba au rhum revisité avec son coulis de citron</div></li>
-    				<li><div>Tarte au citron meringuée destructurée</div></li>
-    			</ul>
-    		</div>
-				<div><i class="fas fa-music"></i>La note enchantée</div>
-    	</div>
-    	</div>
-    </div>
-    
-    <!--********PIED DE PAGE********-->
-    
-    <footer class="container-fluid2">
-    	<div class="row2">
-    		<div class="col-12 col-md-4">
-    			<div class="wiggling">
-    				<a href="mentionslegales.html">
-						<p>Mentions légales</p>
-					</a>
-				</div>
-			</div>
-			<div class="col-12 col-md-4">
-				<div class="wiggling">
-					<a href="mailto:bilal.elimrani@icloud.com">
-						<p>Contactez-nous</p>
-					</a>
-				</div>
-			</div>
-    	</div>
-    </footer>
+	</div>
+	<div class="col-12 col-md-4">
+		<div class="wiggling">
+			<a href="mailto:bilal.elimrani@icloud.com">
+				<p>Contactez-nous</p>
+			</a>
+		</div>
+	</div>
+</div>
+</footer>
 
 </body>
 </html>
