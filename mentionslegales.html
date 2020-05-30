@@ -6,109 +6,112 @@
 	<link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/menuun.css"/>
 	<title>La note enchantée</title>
-	<style>
-body{
-	background-color: rgb(76,175,80);
-	margin: 0;
-	padding: 0;
-}
-.container-fluid1{
-	background-color: rgb(76,175,80);
-	padding: 23px;
-	transition: 500ms;
-}
-.row1{
-	color: yellow;
-	text-align: center;
-	font-size: 25px;
-}
-h1{
-	font-family: 'DM Mono', sans-serif;
-}
-.container{
-	background-color: #fff;
-	width: auto;
-	height: 1500px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-.mentionslegales{
-	width: 800px;
-	height: 1200px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 60px;
-	display: flex;
-	flex-direction: column;
-}
-.menu1{
-	background-color: #fff;
-	box-shadow: 1px 1px 20px 2px black;
-}
-.menu1 img{
-	width: 800px;
-	height: 1200px;
+<style>
+		body{
+			background-color: #579C87;
+			margin: 0;
+			padding: 0;
+		}
+		.container-fluid1{
+			background-color: #579C87;
+			padding: 23px;
+			transition: 500ms;
+		}
+		.row1{
+			color: yellow;
+			text-align: center;
+			font-size: 25px;
+		}
+		h1{
+		    color: #fcca46;
+			font-family: 'DM Mono', sans-serif;
+			text-align: center;
+		}
+		h2{
+			color: #fcca46;
+		}
+		.container{
+			background-color: #fff;
+			width: auto;
+			height: 1700px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+		.mentionslegales{
+			width: 800px;
+			height: 1200px;
+			text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			padding-top: 60px;
+			display: flex;
+			flex-direction: column;
+		}
+		.menu1{
+			background-color: #fff;
+			box-shadow: 1px 1px 20px 2px black;
+		}
+		.menu1 img{
+			width: 800px;
+			height: 1200px;
+		}
+		.container-fluid2{
+			background-color: #579C87;
+			margin: 0px;
+			padding: 5px;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+		.row2{
+			display: flex;
+			justify-content: space-between;
+			font-size: 25px;
+			margin-right: 10px;
+		}
+		.wiggling{
+			animation: thing 1.5s infinite;
+		}
+		@keyframes thing{
+			0%{transform: rotate(3deg)}
+			3%{transform: rotate(-3deg)}
+			4%{transform: rotate(-5deg)}
+			5%{transform: rotate(0deg)}
+			100%{transform: rotate(0deg)}
+		}
+		a{
+			text-decoration: none;
+			color: #fcca46;
+		}
 
-}
-.container-fluid2{
-	background-color: rgb(76,175,80);
-	margin: 5px;
-	padding: 5px;
-}
-.row2{
-	display: flex;
-	justify-content: space-between;
-	color: yellow;
-	font-size: 25px;
-}
-h1{
-	text-align: center;
+		@media all and (min-width: 401px) and (max-width: 768px){
+		.container{
+			height: 100%;
+		}
+		.mentionslegales{
+			width: 380px;
+			height: 100%;
+			box-shadow: none;
+		}		
+		}
 
-}
-.wiggling{
-	animation: thing 1.5s infinite;
-}
-@keyframes thing{
-	0%{transform: rotate(3deg)}
-	3%{transform: rotate(-3deg)}
-	4%{transform: rotate(-5deg)}
-	5%{transform: rotate(0deg)}
-	100%{transform: rotate(0deg)}
-}
-a{
-	text-decoration: none;
-	color: yellow;
-}
-
-@media all and (min-width: 401px) and (max-width: 768px){
-.container{
-	height: 100%;
-}
-.mentionslegales{
-	width: 380px;
-	height: 100%;
-	box-shadow: none;
-}		
-}
-
-@media all and (max-width: 400px){
-.container-fluid1{
-	height: 60px;
-}
-.row1{
-	font-size: 15px;
-}
-.mentionslegales{
-	width: 380px;
-	height: auto;
-	box-shadow: none;
-}
-.container{
-	height: auto;
-}
-</style>
+		@media all and (max-width: 400px){
+		.container-fluid1{
+			height: 60px;
+		}
+		.row1{
+			font-size: 15px;
+		}
+		.mentionslegales{
+			width: 380px;
+			height: 100%;
+			box-shadow: none;
+		}
+		.container{
+			height: 100%;
+		}
+	</style>
 
 </head>
 <body>
@@ -126,43 +129,41 @@ a{
     <div class="container">
     	<div class="mentionslegales menu1">
     		<p>Dénomination : OHMYFOOD<br>
-            Email : contact@ohmyfood.fr</p>
-            <p>Le Créateur du site est : Hugo O. – HOWEB.fr<br>
-            Email : contact@howeb.fr</p>
-            <p>Le Responsable de la publication est : Monsieur Mouas Mehdi<br>
-            Contactez le responsable de la publication : contact@ohmyfood.fr<br>
-            Le responsable de la publication est une personne morale.</p>
-            <p>Hébergeur du site : 1&1<br>
-            Site internet : www.ionos.fr</p>
-            <p>Les présentes conditions de vente sont conclues d’une part par Monsieur Mouas Medhi<br>
-            gérant le site www.hdiprono.fr et, d’autre part, par toute personne physique ou morale<br>
-            souhaitant procéder à un achat via le site internet www.hdiprono.fr dénommée ci-après ”<br>
-            l’acheteur “.</p>
-<p><strong>Article 1. Objet</strong></p>
-<p>Les présentes conditions de vente visent à définir les relations contractuelles entre La Société et<br>
-l’acheteur et les conditions applicables à tout achat effectué par le biais du site internetbr>
-www.hdiprono.fr. L’acquisition d’un produit à travers le présent site implique une acceptation sans<br>
-réserve par l’acheteur des présentes conditions de vente dont l’acheteur reconnaît avoir pris<br>
-connaissance préalablement à sa commande. Avant toute transaction, l’acheteur déclare d’une part<br>
-que l’achat de produits sur le site www.hdiprono.fr est sans rapport direct avec son activité<br>
-professionnelle et est limité à une utilisation strictement personnelle et d’autre part avoir la pleine<br>
-capacité juridique, lui permettant de s’engager au titre des présentes conditions générales de ventes.<br>
-La société conserve la possibilité de modifier à tout moment ces conditions de ventes, afin de<br>
-respecter toute nouvelle réglementation ou dans le but d’améliorer l’utilisation de son site. De ce<br>
-fait, les conditions applicables seront celles en vigueur à la date de la commande par l’acheteur.</p>
-<p><strong>Article 2. Produits</strong></p>
-<p>Les produits proposés sont ceux qui figurent sur le site www.hdiprono.fr de La Société , dans la<br>
-limite des stocks disponibles. La Société se réserve le droit de modifier à tout moment l’assortiment<br>
-de produits. Chaque produit est présenté sur le site internet sous forme d’un descriptif reprenant ses<br>
-principales caractéristiques techniques (données, composition…). La vente des produits présentés<br>
-dans le site www.hdiprono.fr est destinée à tous les acheteurs résidants dans l’Union Européenne.</p>
-<p><strong>Article 3. Tarifs</strong></p>
-<p>Les prix figurant sur les fiches produites sont des prix en Euros (€) toutes taxes comprises (TTC)<br>
-tenant compte de la TVA applicable au jour de la commande. La Société se réserve le droit de<br>
-modifier ses prix à tout moment, étant toutefois entendu que le prix figurant sur le site le jour de<br>
-la commande sera le seul applicable à l’acheteur.</p>
-
-
+    		Email : contact@ohmyfood.fr</p>
+    		<p>Le Créateur du site est : Hugo O. – HOWEB.fr<br>
+    		Email : contact@howeb.fr</p>
+    		<p>Le Responsable de la publication est : Monsieur Mouas Mehdi<br>
+    			Contactez le responsable de la publication : contact@ohmyfood.fr<br>
+    		Le responsable de la publication est une personne morale.</p>
+    		<p>Hébergeur du site : 1&1<br>
+    		Site internet : www.ionos.fr</p>
+    		<p>Les présentes conditions de vente sont conclues d’une part par Monsieur Mouas Medhi<br>
+    			gérant le site www.hdiprono.fr et, d’autre part, par toute personne physique ou morale<br>
+    			souhaitant procéder à un achat via le site internet www.hdiprono.fr dénommée ci-après ”<br>
+    		l’acheteur “.</p>
+    		<p><strong>Article 1. Objet</strong></p>
+    		<p>Les présentes conditions de vente visent à définir les relations contractuelles entre La Société et<br>
+    			l’acheteur et les conditions applicables à tout achat effectué par le biais du site internetbr>
+    			www.hdiprono.fr. L’acquisition d’un produit à travers le présent site implique une acceptation sans<br>
+    			réserve par l’acheteur des présentes conditions de vente dont l’acheteur reconnaît avoir pris<br>
+    			connaissance préalablement à sa commande. Avant toute transaction, l’acheteur déclare d’une part<br>
+    			que l’achat de produits sur le site www.hdiprono.fr est sans rapport direct avec son activité<br>
+    			professionnelle et est limité à une utilisation strictement personnelle et d’autre part avoir la pleine<br>
+    			capacité juridique, lui permettant de s’engager au titre des présentes conditions générales de ventes.<br>
+    			La société conserve la possibilité de modifier à tout moment ces conditions de ventes, afin de<br>
+    			respecter toute nouvelle réglementation ou dans le but d’améliorer l’utilisation de son site. De ce<br>
+    		fait, les conditions applicables seront celles en vigueur à la date de la commande par l’acheteur.</p>
+    		<p><strong>Article 2. Produits</strong></p>
+    		<p>Les produits proposés sont ceux qui figurent sur le site www.hdiprono.fr de La Société , dans la<br>
+    			limite des stocks disponibles. La Société se réserve le droit de modifier à tout moment l’assortiment<br>
+    			de produits. Chaque produit est présenté sur le site internet sous forme d’un descriptif reprenant ses<br>
+    			principales caractéristiques techniques (données, composition…). La vente des produits présentés<br>
+    		dans le site www.hdiprono.fr est destinée à tous les acheteurs résidants dans l’Union Européenne.</p>
+    		<p><strong>Article 3. Tarifs</strong></p>
+    		<p>Les prix figurant sur les fiches produites sont des prix en Euros (€) toutes taxes comprises (TTC)<br>
+    			tenant compte de la TVA applicable au jour de la commande. La Société se réserve le droit de<br>
+    			modifier ses prix à tout moment, étant toutefois entendu que le prix figurant sur le site le jour de<br>
+    		la commande sera le seul applicable à l’acheteur.</p>
     	</div>
     </div>
     
