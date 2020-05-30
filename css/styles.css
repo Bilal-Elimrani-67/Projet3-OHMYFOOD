@@ -123,10 +123,8 @@ i{
 	font-family: 'Satisfy', cursive;
 }
 .menu4{
-	
 	font-size: 20px;
 	margin-top: 150px;
-	background-image: 100px;
 }
 .menu4:hover{
 	transform: scale(1.3);
@@ -174,7 +172,6 @@ i{
 	height: 15px;
 	margin: 0px 5px;
 	margin-top: 25px;
-	margin-right: 3px 5px;
 	background-color: #ffd957;
 	border-radius: 50%; 
 	display: inline-block;
@@ -347,8 +344,6 @@ a{
 	.loading span{
 		width: 5px;
 		height: 5px;
-	}
-	.container-fluid2"{
 	}
 	.row2{
 		font-size: 18px;
