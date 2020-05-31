@@ -165,7 +165,19 @@ a{
 	main div{
 		line-height: 2;
 		font-size: 14px;
-		margin-right: 15px;
+		margin-right: 5px;
+	}
+	.entree .gauche{
+		width: 50px;
+	}
+	.entree .droite{
+		width: 50px;
+	}
+	.plat .gauche{
+		width: 60px;
+	}
+	.plat .droite{
+		width: 60px;
 	}
 	.container-fluid2{
 		height: 40px;

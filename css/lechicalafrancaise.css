@@ -208,16 +208,35 @@ a{
 	main h2{
 		font-size: 25px;
 	}
-	main h3{
-		font-size: 15px;
+	.entree h3{
+		font-size: 12px;
+	}
+	.plat h3{
+		font-size: 12px;
+	}
+	.dessert h3{
+		font-size: 12px;
 	}
 	.gauche{
-		width: 200px;
+		padding-right: px;
+		width: 150px;
 		height: 50px;
 	}
 	.droite{
-		width: 200px;
+		width: 150px;
 		height: 50px;
+	}
+	.entree .gauche{
+		width: 80px;
+	}
+	.entree .droite{
+		width: 80px;
+	}
+	.plat .gauche{
+		width: 80px;
+	}
+	.plat .droite{
+		width: 80px;
 	}
 	.container-fluid2{
 		height: 40px;
