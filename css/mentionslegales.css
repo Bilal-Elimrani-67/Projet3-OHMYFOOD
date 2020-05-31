@@ -21,7 +21,7 @@ h1{
 h2{
 	color: #fcca46;
 }
-.container{
+main{
 	background-color: #fff;
 	width: auto;
 	height: 1700px;
@@ -77,7 +77,7 @@ a{
 }
 
 @media all and (min-width: 401px) and (max-width: 768px){
-	.container{
+	main{
 		height: 100%;
 	}
 	.mentionslegales{
@@ -99,7 +99,7 @@ a{
 		height: 100%;
 		box-shadow: none;
 	}
-	.container{
-		height: 100%;
+	main{
+		height: 900px;
 	}
 }

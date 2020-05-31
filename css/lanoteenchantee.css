@@ -15,7 +15,7 @@ h1{
 	color: #fcca46;
 	font-family: 'DM Mono', sans-serif;
 }
-.container{
+main{
 	background-color: #fff;
 	width: auto;
 	height: 1500px;
@@ -60,17 +60,17 @@ i{
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
-.container i{
+main i{
 	font-size: 40px;
 }
-.container div{
+main div{
 	color: #4f2a09;
 	text-align: center;
 	line-height: 3;
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 17px;
 }
-.container h2{
+main h2{
 	color: #4f2a09;
 	font-family: 'Shadows Into Light Two', cursive;
 }
@@ -132,10 +132,10 @@ a{
 }
 
 @media all and (min-width: 401px) and (max-width: 768px){
-	.container{
+	main{
 		background-color: #FBBB85;
 	}
-	.lanoteenchantee{
+	.lanoteenchantee{main
 		width: 550px;
 		height: auto;
 	}
@@ -158,11 +158,11 @@ a{
 	.menu1{
 		padding-left: 10px;
 	}
-	.container{
+	main{
 		background-color: #FBBB85;
-		height: auto;
+		height: 1300px;
 	}
-	.container div{
+	main div{
 		line-height: 2;
 		font-size: 14px;
 		margin-right: 15px;

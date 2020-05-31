@@ -15,7 +15,7 @@ h1{
 	color: #fcca46;
 	font-family: 'DM Mono', sans-serif;
 }
-.container{
+main{
 	background-color: #fff;
 	width: auto;
 	height: 1500px;
@@ -53,16 +53,16 @@ h1{
 	color: yellow;
 	font-size: 25px;
 }
-.container div{
+main div{
 	text-align: center;
 	line-height: 3;
 	font-family: 'Caveat', cursive;
 	font-size: 18px;
 }
-.container h3{
+main h3{
 	font-family: 'Caveat', cursive;
 }
-.container h2{
+main h2{
 	font-family: 'Kaushan Script', cursive;
 	background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
 	-webkit-text-fill-color: transparent;
@@ -130,8 +130,8 @@ a{
 }
 
 @media all and (min-width: 401px) and (max-width: 768px){
-	.container{
-		background-color: #fff;
+	main{
+		background-color: #fff;main
 	}
 	.lapalettedugout{
 		width: 550px;
@@ -152,19 +152,19 @@ a{
 		height: auto;
 		box-shadow: none;
 	}
-	.container{
+	main{
 		background-color: #fff;
 		height: 950px;
 	}
-	.container div{
+	main div{
 		line-height: 2;
 		font-size: 14px;
 		margin-right: 15px;
 	}
-	.container h2{
+	main h2{
 		font-size: 29px;
 	}
-	.container h3{
+	main h3{
 		font-size: 15px;
 	}
 	.gauche{
