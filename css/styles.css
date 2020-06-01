@@ -19,7 +19,7 @@ h1{
 	display: flex;
 	justify-content: space-evenly;
 }
-.bloc1{
+.menuone{
 	width: 300px;
 	height: 400px;
 	background-color: #fff;
@@ -84,7 +84,7 @@ i{
 	display: flex;
 	justify-content: space-evenly;
 }
-.bloc2{
+.menutwo{
 	width: 300px;
 	height: 400px;
 	background-color: #fff;
@@ -140,7 +140,7 @@ i{
 	color: #1A720E;
 	font-family: 'Satisfy', cursive;
 }
-section{
+.container3{
 	background-color: #fff;
 	width: auto;
 	height: 150px;
@@ -149,7 +149,7 @@ section{
 	align-content: flex-end;
 	padding-top: 50px
 }
-.bloc3{
+.soon{
 	width: 350px;
 	height: 60px;
 	display: flex;
@@ -236,7 +236,7 @@ a{
 }
 
 @media all and (min-width: 401px) and (max-width: 768px){
-	.bloc1{
+	.menuone{
 		width: 130px;
 	}
 	.un{
@@ -247,7 +247,7 @@ a{
 		margin-right: 50px;
 		width: 250px;
 	}
-	.bloc2{
+	.menutwo{
 		width: 130px;
 	}
 	.trois{
@@ -270,7 +270,7 @@ a{
 		flex-direction: column;
 		height: 550px;
 	}
-	.bloc1{
+	.menuone{
 		width: 150px;
 		height: 250px;
 		display: flex;
@@ -302,7 +302,7 @@ a{
 		flex-direction: column;
 		height: 550px;
 	}
-	.bloc2{
+	.menutwo{
 		width: 150px;
 		height: 230px;
 		display: flex;
@@ -361,10 +361,10 @@ a{
 		transform: scale(1.1);
 		transition: 0.5s;
 	}
-	section{
+	.container3{
 		padding-left: 8px;
 	}
-	.bloc3{
+	.soon{
 		height: 50px;
 		font-size: 17px;
 		margin-right: 30px;
