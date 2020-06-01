@@ -110,10 +110,8 @@ li>div:first-child{
 	margin-left: 20px;
 }
 li .gauche{
-	padding-right: 
 }
 li .droite{
-	padding-right:
 	transform: scaleX(-1);
 }
 .wiggling{
@@ -135,7 +133,7 @@ a{
 	main{
 		background-color: #FBBB85;
 	}
-	.lanoteenchantee{main
+	.lanoteenchantee{
 		width: 550px;
 		height: auto;
 	}
