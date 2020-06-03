@@ -26,17 +26,15 @@ h1{
 	margin-top: 70px;
 }
 .un{
-	border-radius: 5px 5px 5px;
 	text-align: center;
 	margin-left: 200px;
-	box-shadow: 1px 1px 1px 1px;
+	box-shadow: 1px 1px 3px 0px;
 	background-color: #FBBB85;
 }
 .deux{
-	border-radius: 5px 5px 5px;
 	text-align: center;
 	margin-right: 200px;
-	box-shadow: 1px 1px 1px 1px;
+	box-shadow: 1px 0px 3px 0px;
 	background-color: #FCDFFB;
 }
 .menu1{
@@ -91,17 +89,15 @@ i{
 	margin-top: 30px;
 }
 .trois{
-	border-radius: 5px 5px 5px;
 	text-align: center;
 	margin-left: 200px;
-	box-shadow: 1px 1px 1px 1px ;
+	box-shadow: 1px 0px 3px 0px;
 	background-color: #F3F3F3;
 }
 .quatre{
-	border-radius: 5px 5px 5px;
 	text-align: center;
 	margin-right: 200px;
-	box-shadow: 1px 1px 1px 1px;
+	box-shadow: 1px 0px 3px 0px;
 }
 .menu3{
 	color: blue;
@@ -188,6 +184,15 @@ i{
 	background-color: #ff8b57;
 	animation-delay: 0.8s;
 }
+.container-fluid2{
+	display: flex;
+	justify-content: space-around;
+}
+.wiggling{
+	padding-left: 230px;
+	padding-right: 230px;
+
+}
 
 @keyframes dots{
 	50%{
@@ -235,28 +240,86 @@ a{
 	color: yellow;
 }
 
-@media all and (min-width: 401px) and (max-width: 768px){
+@media all and (min-width: 416px) and (max-width: 768px){
+	.container1{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.container2{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.menuone{
 		width: 130px;
 	}
 	.un{
-		margin-left: 50px;
+		margin-left: 5px;
 		width: 250px;
 	}
 	.deux{
-		margin-right: 50px;
+		margin-right: 1px;
 		width: 250px;
 	}
 	.menutwo{
 		width: 130px;
 	}
 	.trois{
-		margin-left: 50px;
+		margin-left: 5px;
 		width: 250px;
 	}
 	.quatre{
-		margin-right: 50px;
+		margin-right: 1px;
 		width: 250px;
+	}
+
+}
+
+@media all and (min-width: 401px) and (max-width: 500px){
+	.container1{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.container2{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.menuone{
+		width: 130px;
+	}
+	.un{
+		margin-left: 1px;
+		width: 250px;
+	}
+	.deux{
+		margin-right: 1px;
+		width: 250px;
+	}
+	.menutwo{
+		width: 130px;
+	}
+	.trois{
+		margin-left: 1px;
+		width: 250px;
+	}
+	.quatre{
+		margin-right: 1px;
+		width: 250px;
+	}
+	.wiggling{
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 
 }
@@ -279,7 +342,7 @@ a{
 		margin-top: 10px;
 	}
 	.un{
-		margin-left: 115px;
+		margin-left: 120px;
 	}
 	.un div{
 		display: flex;
@@ -290,7 +353,7 @@ a{
 		padding-bottom: 50px;
 	}
 	.deux{
-		margin-left: 115px;
+		margin-left: 120px;
 	}
 	.deux div{
 		font-size: 17px;
@@ -311,7 +374,7 @@ a{
 		margin-top: 10px;
 	}
 	.trois{
-		margin-left: 115px;
+		margin-left: 120px;
 	}
 	.trois div{
 		padding-bottom: 20px;
@@ -320,7 +383,7 @@ a{
 	.trois h2{
 	}
 	.quatre{
-		margin-left: 115px;
+		margin-left: 120px;
 	}
 	.quatre div{
 		padding-bottom: 20px;
@@ -376,6 +439,10 @@ a{
 	}
 	.row2{
 		font-size: 18px;
+	}
+	.wiggling{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 

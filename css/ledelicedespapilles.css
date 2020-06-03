@@ -81,11 +81,22 @@ h3:hover{
 li{
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
 }
 li>div:first-child{
 	margin: 0 15px;
+}
+h3{
+	padding-top: 10px;
+}
+.entree{
+	margin-left: 40px;
+}
+.plat{
+	margin-left: 40px;
+}
+.dessert{
+	margin-left: 40px;
 }
 .gauche{
 	width: 250px;
