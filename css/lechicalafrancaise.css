@@ -211,59 +211,45 @@ a{
 
 @media all and (max-width: 400px){
 	.container-fluid1{
-		height: 60px;
-	}
-	.row1{
-		font-size: 15px;
-	}
-	.lechicalafrancaise{
-		width: 320px;
-		height: 100%;
+		width: 410px;
 	}
 	main{
-		background-color: #FCDFFB;
-		height: 1200px;
+		height: 100%;
+		margin-bottom: 100px;
+		width: 420px;
+		padding-left: 160px;
 	}
-	main div{
-		line-height: 2;
-		font-size: 12px;
+	.titleOne{
+
 	}
-	main h2{
-		font-size: 25px;
+	.entree td{
+		margin-left: 80px;
+		margin-right: 70px;
 	}
-	.entree h3{
-		font-size: 12px;
+	.entree{
+		padding-left: 1px;
 	}
-	.plat h3{
-		font-size: 12px;
+	.plat td{
+		margin-left: 10px;
+		margin-right: 1px;
 	}
-	.dessert h3{
-		font-size: 12px;
+	.plat{
+		padding-left: 50px;
+		padding-right: 50px;
 	}
-	.gauche{
-		width: 150px;
-		height: 50px;
+	.dessert td{
+		margin-left: 10px;
+		margin-right: 150px;
 	}
-	.droite{
-		width: 150px;
-		height: 50px;
+	.dessert{
+		padding-left: 1px;
 	}
-	.entree .gauche{
-		width: 80px;
+	.lanoteenchantee{
+		width: 550px;
+		height: 100%;
 	}
-	.entree .droite{
-		width: 80px;
-	}
-	.plat .gauche{
-		width: 80px;
-	}
-	.plat .droite{
-		width: 80px;
-	}
-	.container-fluid2{
-		height: 40px;
-	}
-	.row2{
-		font-size: 15px;
-	}
+	.wiggling{
+	padding-left: 20px;
+	padding-right: 20px;
+  	}
 }
