@@ -24,6 +24,26 @@ main{
 	justify-content: center;
 	align-items: center;
 }
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+tr{
+	display: flex;
+	justify-content: space-between;
+}
+.entree td{
+	margin-right: 100px;
+	margin-left: 70px;
+}
+.plat td{
+	margin-right: 100px;
+	margin-left: 70px;
+}
+.dessert td{
+	margin-right: 200px;
+}
 .lanoteenchantee{
 	width: 800px;
 	height: 1250px;
@@ -69,17 +89,17 @@ main div{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 17px;
 }
-main h2{
+h2{
 	color: #4f2a09;
 	font-family: 'Shadows Into Light Two', cursive;
 }
 h3{
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
 	background: linear-gradient(to top, #4f2a09 0%, #4f2a09 1px, transparent 3px) no-repeat;
 	background-size: 0 100%;
 	transition: background-size .5s;
-	padding-top: 10px;
+	padding-top: 15px;
 	margin-right: 20px;
 }
 h3:hover{
@@ -92,6 +112,12 @@ li{
 }
 li>div:first-child{
 	margin: 0 45px;
+}
+li div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-between;
 }
 .gauche{
 	width: 230px;
@@ -116,6 +142,10 @@ li .droite{
 }
 .wiggling{
 	animation: thing 1.5s infinite;
+}
+.wiggling{
+	padding-left: 220px;
+	padding-right: 220px;
 }
 @keyframes thing{
 	0%{transform: rotate(3deg)}
@@ -146,44 +176,55 @@ a{
 	.row1{
 		font-size: 15px;
 	}
+	i{
+		padding-left: 80px;
+	}
 	h2{
-		text-align: center;
+		padding-left: 80px;
+	}
+	h3{
+		font-size: 10px;
+		padding-bottom: 10px;
 	}
 	.lanoteenchantee{
-		width: 330px;
+		width: 350px;
 		height: auto;
 	}
 	.menu1{
-		padding-left: 10px;
+		padding-left:
 	}
 	main{
 		background-color: #FBBB85;
-		height: 1300px;
+		height: auto;
+		padding-right: 80px;
 	}
-	main div{
-		line-height: 2;
+	main tr{
+		line-height: 1.5;
 		font-size: 14px;
-		margin-right: 5px;
+		padding-left: 50px;
 	}
-	.entree .gauche{
-		width: 50px;
+	.gauche{
+		padding-left: 20px;
 	}
-	.entree .droite{
-		width: 50px;
+	.droite{
+		padding-right: 20px;
 	}
-	.plat .gauche{
-		width: 60px;
+	.entree td{
+		margin-left: 5px;
+		margin-right: 1px;
 	}
-	.plat .droite{
-		width: 60px;
-	}
-	.container-fluid2{
-		height: 40px;
-	}
-	.row2{
-		font-size: 15px;
+	.entree{
+		padding-left: 20px;
+		padding-right: 
 	}
 	i{
 		font-size: 1px;
 	}
+	.container-fluid2 p{
+		font-size: 15px;
+	}
+	.wiggling{
+	padding-left: 10px;
+	padding-right: 70px;
+}
 }

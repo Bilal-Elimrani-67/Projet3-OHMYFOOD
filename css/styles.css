@@ -191,7 +191,6 @@ i{
 .wiggling{
 	padding-left: 230px;
 	padding-right: 230px;
-
 }
 
 @keyframes dots{
@@ -259,18 +258,18 @@ a{
 		width: 130px;
 	}
 	.un{
-		margin-left: 5px;
+		margin-left: 1px;
 		width: 250px;
 	}
 	.deux{
-		margin-right: 1px;
+		margin: 30px;
 		width: 250px;
 	}
 	.menutwo{
 		width: 130px;
 	}
 	.trois{
-		margin-left: 5px;
+		margin-left: 1px;
 		width: 250px;
 	}
 	.quatre{

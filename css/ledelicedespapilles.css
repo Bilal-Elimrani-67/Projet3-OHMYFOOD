@@ -19,15 +19,36 @@ h1{
 main{
 	background-color: #fff;
 	width: auto;
-	height: 1500px;
+	height: 1600px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+tr{
+	display: flex;
+	justify-content: space-between;
+}
+.entree td{
+	margin-right: 80px;
+	margin-left: 3px;
+}
+.plat td{
+	margin-right: 100px;
+	margin-left: 30px;
+}
+.dessert td{
+	margin-right: 170px;
+	margin-left: 100px;
+}
 .ledelicedespapilles{
 	width: 800px;
-	height: 1200px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -123,6 +144,10 @@ li .droite{
 }
 .wiggling{
 	animation: thing 1.5s infinite;
+}
+.wiggling{
+	padding-left: 220px;
+	padding-right: 220px;
 }
 @keyframes thing{
 	0%{transform: rotate(3deg)}

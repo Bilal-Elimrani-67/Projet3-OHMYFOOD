@@ -24,6 +24,27 @@ main{
 	justify-content: center;
 	align-items: center;
 }
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+tr{
+	display: flex;
+	justify-content: space-between;
+}
+.entree td{
+	margin-right: 100px;
+	margin-left: 40px;
+}
+.plat td{
+	margin-right: 70px;
+	margin-left: 5px;
+}
+.dessert td{
+	margin-right: 70px;
+	margin-left: 5px;
+}
 .lapalettedugout{
 	width: 800px;
 	height: 1200px;
@@ -31,8 +52,6 @@ main{
 	flex-direction: column;
 	justify-content: space-evenly;
 	box-shadow: 1px 1px 1px 1px;
-}
-.menu4{
 	background-color: #fff;
 }
 .container-fluid2{
@@ -69,9 +88,6 @@ main h2{
 	-webkit-background-clip: text;
 	font-size: 50px;
 }
-h1{
-	font-family: sans-serif;
-}
 h3{
 	font-size: 15px;
 	text-align: center;
@@ -88,20 +104,11 @@ li{
 	flex-direction: row;
 }
 li>div:first-child{
-	margin: 0 15px;
+	margin: 0 20px;
 }
 h3{
 	padding-top: 10px;
-	padding-left: 20px;
-}
-.entree{
-	margin-left: 
-}
-.plat{
-	margin-left: 
-}
-.dessert{
-	margin-left: 
+	padding-left: 5px;
 }
 .gauche{
 	width: 250px;
@@ -111,12 +118,21 @@ h3{
 	clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
 }
 .droite{
-	margin-left: 70px;
+	margin-left: 40px;
 	width: 250px;
 	height: 100px;
 	background: linear-gradient(to right, rgba(26,114,14,0.98) 0%,rgba(26,114,14,0.98) 1%,rgba(197,255,186,1) 100%);
 	-webkit-clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
 	clip-path: polygon(55% 48%, 79% 46%, 91% 47%, 100% 50%, 68% 51%, 46% 53%, 19% 52%, 0 50%, 7% 45%, 30% 48%);
+}
+.titleOne{
+	margin-left: 20px;
+}
+.titleTwo{
+	margin-right: 60px;
+}
+.titleThree{
+	margin-right: 60px;
 }
 li .gauche{
 	padding-right: 10px;
@@ -127,6 +143,10 @@ li .droite{
 }
 .wiggling{
 	animation: thing 1.5s infinite;
+}
+.wiggling{
+	padding-left: 220px;
+	padding-right: 220px;
 }
 @keyframes thing{
 	0%{transform: rotate(3deg)}
