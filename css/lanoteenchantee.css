@@ -170,61 +170,24 @@ a{
 }
 
 @media all and (max-width: 400px){
+	body{
+		background-color: red;
+		margin: 0;
+		padding: 0;
+	}
 	.container-fluid1{
-		height: 60px;
-	}
-	.row1{
-		font-size: 15px;
-	}
-	i{
-		padding-left: 80px;
-	}
-	h2{
-		padding-left: 80px;
-	}
-	h3{
-		font-size: 10px;
-		padding-bottom: 10px;
-	}
-	.lanoteenchantee{
-		width: 350px;
-		height: auto;
-	}
-	.menu1{
-		padding-left:
+		width: 410px;
 	}
 	main{
-		background-color: #FBBB85;
-		height: auto;
-		padding-right: 80px;
+		height: 100%;
+		width: 420px;
 	}
-	main tr{
-		line-height: 1.5;
-		font-size: 14px;
-		padding-left: 50px;
-	}
-	.gauche{
-		padding-left: 20px;
-	}
-	.droite{
-		padding-right: 20px;
-	}
-	.entree td{
-		margin-left: 5px;
-		margin-right: 1px;
-	}
-	.entree{
-		padding-left: 20px;
-		padding-right: 
-	}
-	i{
-		font-size: 1px;
-	}
-	.container-fluid2 p{
-		font-size: 15px;
+	.lanoteenchantee{
+		width: 500px;
+		height: 100%;
 	}
 	.wiggling{
-	padding-left: 10px;
-	padding-right: 70px;
-}
+	padding-left: 20px;
+	padding-right: 20px;
+  	}
 }
