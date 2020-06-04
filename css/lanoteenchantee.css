@@ -170,20 +170,38 @@ a{
 }
 
 @media all and (max-width: 400px){
-	body{
-		background-color: red;
-		margin: 0;
-		padding: 0;
-	}
 	.container-fluid1{
 		width: 410px;
 	}
 	main{
 		height: 100%;
+		margin-bottom: 100px;
 		width: 420px;
+		padding-left: 20px;
+	}
+	.entree td{
+		margin-left: 10px;
+		margin-right: 1px;
+	}
+	.entree{
+		padding-left: 10px;
+	}
+	.plat td{
+		margin-left: 10px;
+		margin-right: 1px;
+	}
+	.plat{
+		padding-left: 10px;
+	}
+	.dessert td{
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+	.dessert{
+		padding-left: 1px;
 	}
 	.lanoteenchantee{
-		width: 500px;
+		width: 550px;
 		height: 100%;
 	}
 	.wiggling{
