@@ -171,44 +171,59 @@ a{
 
 @media all and (max-width: 400px){
 	.container-fluid1{
-		width: 410px;
+		height: 60px;
 	}
-	main{
-		height: 100%;
-		margin-bottom: 100px;
-		width: 420px;
-		padding-left: 20px;
+	.row1{
+		font-size: 15px;
+	}
+	i{
+		padding-left: 80px;
+	}
+	h2{
+		padding-left: 80px;
+	}
+	h3{
+		font-size: 10px;
+		padding-bottom: 10px;
 	}
 	.lanoteenchantee{
-		width: 5px;
+		width: 350px;
+		height: auto;
+	}
+	.menu1{
+		padding-left:
+	}
+	main{
+		background-color: #FBBB85;
+		height: auto;
+		padding-right: 80px;
+	}
+	main tr{
+		line-height: 1.5;
+		font-size: 14px;
+	}
+	.gauche{
+		padding-left: 20px;
+	}
+	.droite{
+		padding-right: 20px;
 	}
 	.entree td{
-		margin-left: 10px;
+		margin-left: 5px;
 		margin-right: 1px;
 	}
 	.entree{
-		padding-left: 10px;
+		padding-left: 20px;
+		padding-right: 
 	}
-	.plat td{
-		margin-left: 10px;
-		margin-right: 1px;
+	i{
+		font-size: 1px;
 	}
-	.plat{
-		padding-left: 10px;
-	}
-	.dessert td{
-		margin-left: 1px;
-		margin-right: 1px;
-	}
-	.dessert{
-		padding-left: 1px;
-	}
-	.lanoteenchantee{
-		width: 550px;
-		height: 100%;
+	.container-fluid2 p{
+		font-size: 15px;
 	}
 	.wiggling{
-	padding-left: 20px;
-	padding-right: 20px;
-  	}
+	padding-left: 10px;
+	padding-right: 70px;
+	}
 }
