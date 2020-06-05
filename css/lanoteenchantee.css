@@ -224,11 +224,11 @@ a{
 		font-size: 14px;
 	}
 	.gauche{
-		min-width: 150px
+		min-width: 150px;
 		padding-left: 1px;
 	}
 	.droite{
-		min-width: 150px
+		min-width: 150px;
 		padding-right: 1px;
 	}
 	.entree td{
