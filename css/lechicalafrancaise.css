@@ -269,10 +269,10 @@ a{
 		font-size: 12px;
 	}
 	.gauche{
-		min-width: 30px
+		min-width: 40px
 	}
 	.droite{
-		min-width: 30px
+		min-width: 40px
 	}
 	.entree td{
 		line-height: 2;
@@ -298,11 +298,15 @@ a{
 	.titleThree{
 		margin-right: 8px;
 	}
-	.titleThree ul{
-		padding-right: 20px;
+	.titleOne ul{
+		padding-left: 5px;
 	}
-	ul{
-		padding-left: 10px;
+	.titleTwo ul{
+		padding-left: 5px;
+	}
+	.titleThree ul{
+		padding-left: 1px;
+		padding-right: 35px;
 	}
 	i{
 		font-size: 1px;
