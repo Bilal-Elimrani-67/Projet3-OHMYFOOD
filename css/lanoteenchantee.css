@@ -171,6 +171,9 @@ a{
 }
 
 @media all and (max-width: 450px){
+	body{
+		background-color: #FBBB85;
+	}
 	.container-fluid1{
 		height: 60px;
 	}
@@ -185,10 +188,12 @@ a{
 	.lanoteenchantee{
 		width: 350px;
 		height: auto;
+		padding-right: 50px;
 	}
 	main{
 		background-color: #FBBB85;
 		height: auto;
+		margin-bottom: 100px;
 	}
 	main tr{
 		line-height: 1.5;
@@ -204,27 +209,18 @@ a{
 	}
 	.entree td{
 		line-height: 2;
-		margin-left: 2px;
+		margin-left: 30px;
 		margin-right: 10px;
 	}
 	.plat td{
 		line-height: 2;
-		margin-left: 1px;
+		margin-left: 30px;
 		margin-right: 10px;
 	}
 	.dessert td{
 		line-height: 2;
-		margin-left: 5px;
+		margin-left: 30px;
 		margin-right: 20px;
-	}
-	.titleOne{
-		margin-right: 80px;
-	}
-	.titleTwo{
-		margin-right: 60px;
-	}
-	.titleThree{
-		margin-right: 60px;
 	}
 	i{
 		font-size: 1px;
