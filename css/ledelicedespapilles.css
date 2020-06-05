@@ -165,10 +165,36 @@ a{
 	main{
 		background-color: #F3F3F3;
 		height: auto;
+		margin-bottom: 100px;
 	}
 	.ledelicedespapilles{
 		width: 550px;
 		height: auto;
+	}
+	.entree td{
+		line-height: 2;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	.plat td{
+		line-height: 2;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.dessert td{
+		line-height: 2;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+	.titleTwo li{
+		padding-right: 80px;
+	}
+	.titleThree li{
+		padding-right: 80px;
+	}
+	.wiggling{
+		padding-left: 1px;
+		padding-right: 1px;
 	}
 }
 
@@ -192,7 +218,6 @@ a{
 	.ledelicedespapilles{
 		width: 350px;
 		height: 100%;
-		padding-right: ;
 	}
 	main{
 		background-color: #F3F3F3;

@@ -163,11 +163,35 @@ a{
 @media all and (min-width: 451px) and (max-width: 768px){
 	main{
 		background-color: #fff;
+		height: auto;
+		margin-bottom: 100px;
 	}
 	.lapalettedugout{
 		width: 550px;
 		height: auto;
 		box-shadow: none;
+	}
+	.entree td{
+		line-height: 2;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	.plat td{
+		line-height: 2;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.dessert td{
+		line-height: 2;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+	.titleOne li{
+		padding-right: 60px;
+	}
+	.wiggling{
+		padding-left: 1px;
+		padding-right: 1px;
 	}
 }
 

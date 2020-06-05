@@ -163,10 +163,30 @@ a{
 	main{
 		background-color: #FBBB85;
 		height: auto;
+		margin-bottom: 100px;
 	}
 	.lanoteenchantee{
 		width: 550px;
 		height: auto;
+	}
+	.entree td{
+		line-height: 2;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	.plat td{
+		line-height: 2;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+	.dessert td{
+		line-height: 2;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+	.wiggling{
+		padding-left: 1px;
+		padding-right: 1px;
 	}
 }
 
@@ -181,6 +201,7 @@ a{
 		font-size: 15px;
 	}
 	h2{
+		padding-left: 10px;
 	}
 	h3{
 		font-size: 10px;
@@ -188,7 +209,6 @@ a{
 	.lanoteenchantee{
 		width: 350px;
 		height: auto;
-		padding-right: 50px;
 	}
 	main{
 		background-color: #FBBB85;
@@ -219,8 +239,11 @@ a{
 	}
 	.dessert td{
 		line-height: 2;
-		margin-left: 30px;
-		margin-right: 20px;
+		margin-left: 25px;
+		margin-right: 10px;
+	}
+	li{
+		padding-right: 25px;
 	}
 	i{
 		font-size: 1px;
