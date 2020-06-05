@@ -211,6 +211,7 @@ a{
 	.lechicalafrancaise{
 		width: 550px;
 		height: auto;
+		background-color: #FFF5FE;
 	}
 	.entree td{
 		line-height: 2;
@@ -281,7 +282,7 @@ a{
 	.plat td{
 		line-height: 2;
 		margin-left: 5px;
-		margin-right: 40px;
+		margin-right: 0px;
 	}
 	.dessert td{
 		line-height: 2;
