@@ -161,9 +161,10 @@ a{
 	color: yellow;
 }
 
-@media all and (min-width: 401px) and (max-width: 768px){
+@media all and (min-width: 451px) and (max-width: 768px){
 	main{
 		background-color: #F3F3F3;
+		height: auto;
 	}
 	.ledelicedespapilles{
 		width: 550px;
@@ -172,47 +173,77 @@ a{
 }
 
 
-@media all and (max-width: 400px){
+@media all and (max-width: 450px){
+	body{
+		background-color: #F3F3F3;
+	}
 	.container-fluid1{
-		width: 410px;
+		height: 60px;
+	}
+	.row1{
+		font-size: 15px;
+	}
+	h2{
+		padding-left: 10px;
+	}
+	h3{
+		font-size: 10px;
+	}
+	.ledelicedespapilles{
+		width: 350px;
+		height: 100%;
+		padding-right: ;
 	}
 	main{
+		background-color: #F3F3F3;
 		height: 100%;
 		margin-bottom: 100px;
-		width: 420px;
-		padding-left: 160px;
 	}
-	.titleOne{
-
+	main tr{
+		line-height: 1;
+		font-size: 12px;
+	}
+	.gauche{
+		min-width: 30px
+	}
+	.droite{
+		min-width: 30px
 	}
 	.entree td{
-		margin-left: 80px;
-		margin-right: 70px;
-	}
-	.entree{
-		padding-left: 1px;
+		line-height: 2;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-size: 12px;
 	}
 	.plat td{
-		margin-left: 10px;
-		margin-right: 1px;
-	}
-	.plat{
-		padding-left: 50px;
-		padding-right: 50px;
+		line-height: 2;
+		margin-left: 8px;
+		margin-right: 15px;
+		font-size: 12px;
 	}
 	.dessert td{
-		margin-left: 10px;
-		margin-right: 150px;
+		line-height: 2;
+		margin-left: 1px;
+		margin-right: 20px;
+		font-size: 12px;
 	}
-	.dessert{
-		padding-left: 1px;
+	.titleOne{
+		margin-right: 100px;
 	}
-	.lanoteenchantee{
-		width: 550px;
-		height: 100%;
+	.titleTwo{
+		margin-right: 100px;
+	}
+	.titleThree{
+		margin-right: 100px;
+	}
+	i{
+		font-size: 1px;
+	}
+	.container-fluid2 p{
+		font-size: 15px;
 	}
 	.wiggling{
-	padding-left: 20px;
-	padding-right: 20px;
-  	}
+	padding-left: 0px;
+	padding-right: 4px;
+	}
 }
