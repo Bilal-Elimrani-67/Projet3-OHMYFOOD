@@ -239,7 +239,7 @@ a{
 	color: yellow;
 }
 
-@media all and (min-width: 416px) and (max-width: 768px){
+@media all and (min-width: 451px) and (max-width: 768px){
 	.container1{
 		height: auto;
 		display: flex;
@@ -299,10 +299,10 @@ a{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-top: 10px;
+		margin-top: 32px;
 	}
 	.un{
-		margin-left: 120px;
+		margin-left: 130px;
 	}
 	.un div{
 		display: flex;
@@ -313,7 +313,7 @@ a{
 		padding-bottom: 50px;
 	}
 	.deux{
-		margin-left: 120px;
+		margin-left: 130px;
 	}
 	.deux div{
 		font-size: 17px;
@@ -334,7 +334,7 @@ a{
 		margin-top: 10px;
 	}
 	.trois{
-		margin-left: 120px;
+		margin-left: 130px;
 	}
 	.trois div{
 		padding-bottom: 20px;
@@ -343,7 +343,7 @@ a{
 	.trois h2{
 	}
 	.quatre{
-		margin-left: 120px;
+		margin-left: 130px;
 	}
 	.quatre div{
 		padding-bottom: 20px;
@@ -406,3 +406,17 @@ a{
 	}
 }
 
+@media all and (min-width: 300px) and (max-width: 400px){
+	.un{
+		margin-left: 120px;
+	}
+	.deux{
+		margin-left: 120px;
+	}
+	.trois{
+		margin-left: 120px;
+	}
+	.quatre{
+		margin-left: 120px;
+	}
+}
