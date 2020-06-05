@@ -51,7 +51,7 @@ tr{
 	flex-direction: column;
 }
 .menu1{
-	background-color: #FBBB85;
+	background-color: #FCDFDB;
 }
 .container-fluid2{
 	background-color: #579C87;
@@ -160,8 +160,11 @@ a{
 }
 
 @media all and (min-width: 451px) and (max-width: 768px){
+	body{
+		background-color: #FCDFDB;
+	}
 	main{
-		background-color: #FBBB85;
+		background-color: #FCDFDB;
 		height: auto;
 		margin-bottom: 100px;
 	}
@@ -192,7 +195,7 @@ a{
 
 @media all and (max-width: 450px){
 	body{
-		background-color: #FBBB85;
+		background-color: #FCDFDB;
 	}
 	.container-fluid1{
 		height: 60px;
@@ -205,13 +208,14 @@ a{
 	}
 	h3{
 		font-size: 10px;
+		padding-top: 25px;
 	}
 	.lanoteenchantee{
 		width: 350px;
 		height: auto;
 	}
 	main{
-		background-color: #FBBB85;
+		background-color: #FCDFDB;
 		height: auto;
 		margin-bottom: 100px;
 	}
@@ -252,7 +256,7 @@ a{
 		font-size: 15px;
 	}
 	.wiggling{
-	padding-left: 1px;
-	padding-right: 1px;
+		padding-left: 1px;
+		padding-right: 1px;
 	}
 }

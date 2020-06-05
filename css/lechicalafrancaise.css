@@ -200,8 +200,11 @@ a{
 }
 
 @media all and (min-width: 451px) and (max-width: 768px){
+	body{
+		background-color: #FFF5FE;
+	}
 	main{
-		background-color: #FCDFFB;
+		background-color: #FFF5FE;
 		height: auto;
 		margin-bottom: 100px;
 	}
@@ -238,7 +241,7 @@ a{
 
 @media all and (max-width: 450px){
 	body{
-		background-color: #FCDFFB;
+		background-color: #FFF5FE;
 	}
 	.container-fluid1{
 		height: 60px;
@@ -246,17 +249,17 @@ a{
 	.row1{
 		font-size: 15px;
 	}
-	h2{
-	}
 	h3{
+		padding-top: 1px;
 		font-size: 10px;
 	}
 	.lechicalafrancaise{
 		width: 350px;
 		height: 100%;
+		background-color: #FFF5FE;
 	}
 	main{
-		background-color: #FCDFFB;
+		background-color: #FFF5FE;
 		height: 100%;
 		margin-bottom: 100px;
 	}
@@ -286,13 +289,19 @@ a{
 		margin-right: 80px;
 	}
 	.titleOne{
-		margin-right: 100px;
+		margin-right: 50px;
 	}
 	.titleTwo{
-		margin-right: 100px;
+		margin-right: 50px;
 	}
 	.titleThree{
-		margin-right: 100px;
+		margin-right: 8px;
+	}
+	.titleThree ul{
+		padding-right: 20px;
+	}
+	ul{
+		padding-left: 10px;
 	}
 	i{
 		font-size: 1px;
@@ -301,7 +310,7 @@ a{
 		font-size: 15px;
 	}
 	.wiggling{
-	padding-left: 0px;
-	padding-right: 4px;
+		padding-left: 0px;
+		padding-right: 4px;
 	}
 }

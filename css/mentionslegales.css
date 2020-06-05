@@ -77,8 +77,12 @@ a{
 }
 
 @media all and (min-width: 401px) and (max-width: 768px){
+	body{
+		background-color: #fff;
+	}
 	main{
 		height: 100%;
+		margin-bottom: 100px;
 	}
 	.mentionslegales{
 		width: 380px;
@@ -87,7 +91,10 @@ a{
 	}		
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 450px){
+	body{
+		background-color: #fff;
+	}
 	.container-fluid1{
 		height: auto;
 	}

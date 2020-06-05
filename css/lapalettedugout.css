@@ -161,6 +161,9 @@ a{
 }
 
 @media all and (min-width: 451px) and (max-width: 768px){
+	body{
+		background-color: #fff;
+	}
 	main{
 		background-color: #fff;
 		height: auto;
@@ -210,7 +213,7 @@ a{
 	}
 	.lapalettedugout h3{
 		font-size: 10px;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
 	.lapalettedugout{
 		box-shadow: none;
@@ -231,7 +234,7 @@ a{
 		height: 80px;
 	}
 	.droite{
-		margin-left: 10px;
+		margin-left: 15px;
 		min-width: 30px;
 		height: 80px;
 	}

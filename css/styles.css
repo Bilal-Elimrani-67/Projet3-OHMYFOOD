@@ -28,14 +28,14 @@ h1{
 .un{
 	text-align: center;
 	margin-left: 200px;
-	box-shadow: 1px 1px 3px 0px;
-	background-color: #FBBB85;
+	box-shadow: 0.5px 0.5px 6px;
+	background-color: #FCDFDB;
 }
 .deux{
 	text-align: center;
 	margin-right: 200px;
-	box-shadow: 1px 0px 3px 0px;
-	background-color: #FCDFFB;
+	box-shadow: 0.5px 0.5px 6px;
+	background-color: #FFF5FE;
 }
 .menu1{
 	color: #660000;
@@ -91,13 +91,13 @@ i{
 .trois{
 	text-align: center;
 	margin-left: 200px;
-	box-shadow: 1px 0px 3px 0px;
+	box-shadow: 0.5px 0.5px 6px;
 	background-color: #F3F3F3;
 }
 .quatre{
 	text-align: center;
 	margin-right: 200px;
-	box-shadow: 1px 0px 3px 0px;
+	box-shadow: 0.5px 0.5px 6px;
 }
 .menu3{
 	color: blue;
@@ -276,54 +276,15 @@ a{
 		margin-right: 1px;
 		width: 250px;
 	}
-
-}
-
-@media all and (min-width: 401px) and (max-width: 500px){
-	.container1{
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.container2{
-		height: auto;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.menuone{
-		width: 130px;
-	}
-	.un{
-		margin-left: 1px;
-		width: 250px;
-	}
-	.deux{
-		margin-right: 1px;
-		width: 250px;
-	}
-	.menutwo{
-		width: 130px;
-	}
-	.trois{
-		margin-left: 1px;
-		width: 250px;
-	}
-	.quatre{
-		margin-right: 1px;
-		width: 250px;
-	}
 	.wiggling{
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
 
-@media all and (max-width: 400px){
+
+@media all and (max-width: 450px){
 	.container-fluid1{
 		height: auto;
 	}
@@ -440,8 +401,8 @@ a{
 		font-size: 18px;
 	}
 	.wiggling{
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 2px;
+		padding-right: 2px;
 	}
 }
 
